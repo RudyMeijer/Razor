@@ -12,7 +12,7 @@ namespace RazorPages.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Contact ASH";
         }
     }
 }

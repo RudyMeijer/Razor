@@ -1,7 +1,7 @@
 ﻿@page
 @model RazorPages.Pages.routemapModel
 @{
-    ViewData["Title"] = "routemap";
+    ViewData["Title"] = "route 66";
 }
 
 <!doctype html>
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.0.2/css/ol.css" type="text/css">
     <style>
         .map {
-            height: 400px;
+            height: 700px;
             width: 100%;
         }
     </style>
@@ -28,10 +28,12 @@
                 })
             ],
             view: new ol.View({
-                center: ol.proj.fromLonLat([52.41, 6.82]),
-                zoom: 4
+                center: ol.proj.fromLonLat([52.2777, 6.3988], "EPSG:3857"),
+                zoom: 2
             })
         });
+        //var pro = new ol.Projection();
+        //alert("1111");
     </script>
 </body>
 </html>
