@@ -28,12 +28,11 @@
                 })
             ],
             view: new ol.View({
-                center: ol.proj.fromLonLat([52.2777, 6.3988], "EPSG:3857"),
-                zoom: 2
+                center: ol.proj.fromLonLat([6.3975,52.2773]), // Holten.
+                zoom: 14,
             })
         });
-        //var pro = new ol.Projection();
-        //alert("1111");
+        //alert(ol.proj.get("EPSG:4326"));
     </script>
 </body>
 </html>
