@@ -12,7 +12,7 @@ namespace RazorPages.Pages
 
         public void OnGet()
         {
-            Message = "Contact ASH";
+            Message = "Aebi Schmidt Nederland B.V.";
         }
     }
 }
